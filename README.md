@@ -1,14 +1,21 @@
 # Projeto Flutter 02 - Conversor de moedas
-Construindo um conversor de valor de moedas (Real | Dólar | Iene) 
-- Três TextField (Um para cada moeda), que permitem o usuário inserir valores manualmente e automaticamente atualiza os demais valores de acordo com o valor inserido.
+Construindo um conversor de valores de moedas (Real | Dólar | Iene)
+- Três TextFields (um para cada moeda), que permitem ao usuário inserir valores manualmente, atualizando automaticamente os demais campos de acordo com o valor inserido.
 
 ## Objetivos 
-Projeto com o objetivo de entender a estrutura de consumo de APIs externas 
+Projeto com o objetivo de entender a estrutura de consumo de APIs externas.
 
 ### Conceitos aprendidos 
 
 ### Rodar o projeto 
-<em>É nessário possuir o sdk do Flutter instalado na sua máquina, além de configurar as váriaveis de ambiente</em> 
+1. **SDK do Flutter:**
+   - Certifique-se de ter o SDK do Flutter instalado e configurado corretamente em seu ambiente de desenvolvimento.
+
+2. **Variáveis de Ambiente:**
+    - Crie a pasta `assets` na raiz do projeto e adicione o arquivo `.env`.
+    - Dentro do arquivo `.env`, declare a variável `API_URL_KEY` com a URL da sua API de moedas. Você pode encontrá-la e gerá-la em: [https://hgbrasil.com](https://hgbrasil.com).
+
+   <br>
 
 <b>Comandos:</b> 
 Instalar dependências do projeto 
