@@ -1,11 +1,23 @@
-# Projeto Flutter 02 - Conversor de moedas
+# Projeto Flutter 03 - Conversor de moedas
 Construindo um conversor de valores de moedas (Real | Dólar | Iene)
 - Três TextFields (um para cada moeda), que permitem ao usuário inserir valores manualmente, atualizando automaticamente os demais campos de acordo com o valor inserido.
+
+<div align="center">
+
+![ProjectFlutter3](https://github.com/user-attachments/assets/eeca9e4d-439a-4e5e-b19e-bd5821703850)
+
+   
+</div>
 
 ## Objetivos 
 Projeto com o objetivo de entender a estrutura de consumo de APIs externas.
 
 ### Conceitos aprendidos 
+- DotEnv
+- Future | FutureBuilder
+- Snapshot
+- Http Reponse/Get
+- CircularProgressIndicator
 
 ### Rodar o projeto 
 1. **SDK do Flutter:**
@@ -18,10 +30,18 @@ Projeto com o objetivo de entender a estrutura de consumo de APIs externas.
    <br>
 
 <b>Comandos:</b> 
-Instalar dependências do projeto 
+Instalar dependências do projeto:
 
-``` flutter pub get ``` 
+``` 
 
-Conectar com o dispositivo e rodar o projeto 
+flutter pub get 
 
-``` flutter run ```
+``` 
+
+Conectar com o dispositivo e rodar o projeto:
+
+``` 
+
+flutter run
+
+```
